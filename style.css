@@ -1,0 +1,440 @@
+#container {
+    width: 960px;
+    height: 1500px;
+    /* background-color: rgb(244, 240, 233); */
+    margin: auto;
+    position: relative;
+    /* border: 1px solid; */
+}
+
+article {
+    width: 100%;
+    height: 500px;
+    /* background-color: blue; */
+}
+
+footer {
+    /* background-color: aqua; */
+    width: 960px;
+    height: 500px;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    /* background-color: orange; */
+    text-align: center;
+    font-variant: small-caps;
+    background-color: rgb(1, 55, 1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 10px;
+
+}
+
+nav a:hover {
+    color: yellow;
+    font-size: 17px;
+    /* text-decoration: underline; */
+}
+
+.san-pham {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px;
+    margin: 10px;
+    /* float: left; */
+    text-align: center;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    left: 40px;
+}
+
+.san-pham img {
+    max-width: 60%;
+    max-height: 60%;
+    position: absolute;
+    left: 50px;
+}
+
+.san-pham .ten {
+    font-size: large;
+    font-variant: small-caps;
+    text-align: center;
+    position: absolute;
+    left: 40px;
+    bottom: 60px;
+}
+
+.san-pham .gia {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    bottom: 40px;
+}
+
+.san-pham .mua button {
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid red;
+    position: absolute;
+    left: 90px;
+    bottom: 10px;
+}
+
+.san-pham .mua button:hover {
+    box-shadow: 0px 0px 10px red;
+}
+
+.san-pham2 {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 340px;
+    bottom: 290px;
+    width: 250px;
+    height: 250px;
+
+}
+
+.san-pham2 img {
+    max-width: 60%;
+    max-height: 60%;
+    position: absolute;
+    left: 70px;
+}
+
+.san-pham2 .ten2 {
+    font-size: large;
+    font-variant: small-caps;
+    text-align: center;
+    position: absolute;
+    left: 60px;
+    bottom: 60px;
+}
+
+.san-pham2 .gia2 {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+}
+
+.san-pham2 .gia2 del {
+    color: black;
+}
+
+.san-pham2 .mua2 button {
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid red;
+    position: absolute;
+    left: 90px;
+    bottom: 10px;
+}
+
+.san-pham2 .mua2 button:hover {
+    box-shadow: 0px 0px 10px red;
+}
+
+
+.san-pham3 {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 350px;
+    bottom: 290px;
+    width: 250px;
+    height: 250px;
+
+}
+
+.san-pham3 img {
+    max-width: 60%;
+    max-height: 60%;
+    position: absolute;
+    left: 70px;
+}
+
+.san-pham3 .ten3 {
+    font-size: large;
+    font-variant: small-caps;
+    text-align: center;
+    position: absolute;
+    left: 60px;
+    bottom: 60px;
+}
+
+.san-pham3 .gia3 {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    position: absolute;
+    left: 80px;
+    bottom: 40px;
+}
+
+/* .san-pham2 .gia2 del{
+            color: black;
+        } */
+.san-pham3 .mua3 button {
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid red;
+    position: absolute;
+    left: 90px;
+    bottom: 10px;
+}
+
+.san-pham3 .mua3 button:hover {
+    box-shadow: 0px 0px 10px red;
+}
+
+nav .search-box {
+    float: right;
+    line-height: 40px;
+}
+
+nav .search-box input {
+    padding: 7px 10px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    margin: 0;
+    width: 250px;
+}
+
+/* nav .search-box input:hover{
+    color: wheat;
+} */
+nav .search-box button {
+    padding: 7px 10px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    outline: none;
+    background: rgb(3, 57, 18);
+    color: #fff;
+    margin-left: -5px;
+}
+
+nav .search-box button:hover {
+    color: rgb(246, 218, 175);
+}
+
+h2 {
+    position: absolute;
+    left: 0px;
+}
+
+.t {
+    /* border: 1px solid black; */
+    position: relative;
+    width: 100%;
+    height: 290px;
+}
+
+.pk {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px;
+    margin: 10px;
+    /* float: left; */
+    text-align: center;
+    position: absolute;
+    width: 250px;
+    height: 270px;
+    left: 40px;
+    /* bottom: 5px; */
+}
+
+.pk img {
+    max-width: 50%;
+    max-height: 50%;
+    position: absolute;
+    left: 70px;
+}
+
+.pk .tenpk {
+    font-size: large;
+    font-variant: small-caps;
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+}
+
+.pk .giapk {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.pk .giapk del {
+    color: black;
+}
+
+.pk .muapk button {
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid red;
+    position: absolute;
+    left: 90px;
+    bottom: 10px;
+}
+
+.pk .muapk button:hover {
+    box-shadow: 0px 0px 10px red;
+}
+
+
+.pk2 {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px;
+    /* margin: 10px; */
+    /* float: left; */
+    text-align: center;
+    position: absolute;
+    left: 800px;
+    top: 7px;
+    width: 250px;
+    height: 270px;
+    left: 350px;
+}
+
+.pk2 img {
+    max-width: 50%;
+    max-height: 50%;
+    position: absolute;
+    left: 70px;
+}
+
+.pk2 .tenpk2 {
+    font-size: large;
+    font-variant: small-caps;
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+}
+
+.pk2 .giapk2 {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.pk2 .giapk2 del {
+    color: black;
+}
+
+.pk2 .muapk2 button {
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid red;
+    position: absolute;
+    left: 90px;
+    bottom: 10px;
+}
+
+.pk2 .muapk2 button:hover {
+    box-shadow: 0px 0px 10px red;
+}
+
+
+.pk3 {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px;
+    /* margin: 10px; */
+    /* float: left; */
+    text-align: center;
+    position: absolute;
+    width: 250px;
+    height: 270px;
+    top: 7px;
+    left: 650px;
+}
+
+.pk3 img {
+    max-width: 50%;
+    max-height: 50%;
+    position: absolute;
+    left: 70px;
+}
+
+.pk3 .tenpk3 {
+    font-size: large;
+    font-variant: small-caps;
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+}
+
+.pk3 .giapk3 {
+    color: red;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.pk3 .giapk3 del {
+    color: black;
+}
+
+.pk3 .muapk3 button {
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid red;
+    position: absolute;
+    left: 90px;
+    bottom: 10px;
+}
+
+.pk3 .muapk3 button:hover {
+    box-shadow: 0px 0px 10px red;
+}
